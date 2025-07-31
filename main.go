@@ -26,5 +26,6 @@ func main() {
 
 	// start advance slice operations
 
-	advanceOfSlice1()
+	//advanceOfSlice1()
+	advanceOfSlice2()
 }
