@@ -108,7 +108,7 @@ type Result struct {
 	WorkerID int
 }
 
-func main() {
+func main7() {
 	rand.Seed(time.Now().UnixNano())
 
 	numbJobs := 10
@@ -143,4 +143,13 @@ func main() {
 		fmt.Printf("Worker %d processed Job %d: input=%d output=%d\n",
 			result.WorkerID, result.JobID, result.Input, result.Output)
 	}
+}
+
+//***********************************************************************************************************************************
+
+func main() {
+	// advance concurrancy patterns.
+
+	// pattern 3: advance pipline pattern.
+	AdvancePiplinePattern()
 }
