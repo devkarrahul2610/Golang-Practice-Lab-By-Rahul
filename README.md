@@ -1,32 +1,6 @@
 # Golang Practice Lab by Rahul 🚀
 
-Welcome to my **Go language practice repository**!  
-This is my personal learning lab where I explore Golang concepts in depth — each topic is on its **own branch** with explanations, examples, and assignments.
+A function is a block of code that performs a task. It does not belongs to any type (struct,interface,etc..).It defined using a func keyword.
+A method is just like a function with receiver.A receiver is a parameter that appears before the method name. which binds a method to a type (usually struct). This means method belongs to that type.
+Functions modify only what you pass. Methods can use pointer receivers to modify the type directly.
 
-The goal is to build a **comprehensive Golang reference** while showcasing my coding style, problem-solving skills, and ability to write clean, maintainable code.
-
----
-
-## 📚 Topics & Branch Links
-
-| #  | Topic | Branch Link |
-|----|-------|-------------|
-| 1  | Arrays | [feat/arrays-practice-01](https://github.com/devkarrahul2610/Golang-Practice-Lab-By-Rahul/tree/feat/arrays-practice-01) |
-| 2  | Slices | [feat/slices-practice-02](https://github.com/devkarrahul2610/Golang-Practice-Lab-By-Rahul/tree/feat/slices-practice-02) |
-| 3  | Maps | [feat/maps-practice-03](https://github.com/devkarrahul2610/Golang-Practice-Lab-By-Rahul/tree/feat/maps-practice-03) |
-| 4  | Concurrency (Goroutines & Channels) | [feat/channel-concurrency-pratice-04](https://github.com/devkarrahul2610/Golang-Practice-Lab-By-Rahul/tree/feat/channel-concurrancy-pratice-04) |
-| 5  | Methods & Functions | *(coming soon)* |
-| 6  | Interfaces & Composition | *(coming soon)* |
-| 7  | HTTP & Web Development | *(coming soon)* |
-
----
-
-## 🛠 How to Explore a Topic
-1. Click the **branch link** for the topic you want to explore.
-2. Inside that branch you will find:
-   - **README.md** → Concept explanation & notes.
-   - **main.go** → Examples demonstrating the concept.
-   - **assignments.go** → Practice problems to try yourself.
-3. Run the examples using:
-   ```bash
-   go run main.go
